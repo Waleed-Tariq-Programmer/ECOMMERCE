@@ -1,0 +1,27 @@
+.categories-area {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+    background: #F2E1D9;
+}
+.categories-area .single-cat .cat-icon img {
+    margin-bottom: 26px;
+    display: block;
+}
+.categories-area .single-cat .cat-cap h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    display: block;
+    text-transform: capitalize;
+    color: #2B2B2B;
+    font-family: "Poppins", sans-serif;
+}
+.categories-area .single-cat .cat-cap p {
+    color: #57667e;
+    font-size: 16px;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+}

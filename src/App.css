@@ -1,0 +1,47 @@
+ // const FetchAllProducts = async () => {
+  //   let allProductsData = [];
+  //   let limit = 30;
+  //   let skip = 0;
+  //   let hasMore = true;
+
+  //   while (hasMore) {
+  //     try {
+  //       const response = await fetch(
+  //         `https://dummyjson.com/products?limit=${limit}&skip=${skip}`,
+  //       );
+  //       const data = await response.json();
+  //       if (data.products && data.products.length > 0) {
+  //         allProductsData = [...allProductsData, ...data.products];
+  //         skip += limit;
+  //       } else {
+  //         hasMore = false;
+  //       }
+  //     } catch (error) {
+  //       console.log(error);
+  //       hasMore = false;
+  //     }
+  //   }
+  //   saveData(allProductsData);
+  // };
+
+  // const saveData = async (allProductsData) => {
+  //   try {
+  //     for (const product of allProductsData) {
+  //       await setDoc(doc(db, "Product", product.id.toString()), {
+  //         title: product.title,
+  //         id: product.id,
+  //         description: product.description,
+  //         category: product.category,
+  //         price: product.price,
+  //         stock: product.stock,
+  //         thumbnail: product.thumbnail,
+  //         rating: product.rating,
+  //         availabilityStatus: product.availabilityStatus,
+  //         reviews: product.reviews,
+  //       });
+  //     }
+  //   } catch (error) {
+  //     console.error("Error saving product data:", error);
+  //   }
+  // };
+

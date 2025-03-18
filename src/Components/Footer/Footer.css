@@ -1,0 +1,10 @@
+.footer_text {
+    color: #C2C5DB !important;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 12px;
+}
+.footer-bottom-area {
+    background: #1D2547;
+}

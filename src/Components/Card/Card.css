@@ -1,0 +1,77 @@
+.product-card {
+    position: relative;
+    overflow: hidden;
+    width: 15rem !important;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+NavLink{
+    text-decoration:none;
+    color:white;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card image */
+.product-card .card-img-top {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Card body */
+.product-card .card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  padding: 15px;
+  font-family: "Poppins", sans-serif !important;
+  text-align: center;
+}
+
+/* Card hover state */
+.product-card:hover .card-body {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Card title */
+.product-card .card-title {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color:#1D2547;
+}
+
+/* Card price */
+.product-card .card-price {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color:#1D2547;
+}
+.page-link{
+  color: #FD8F5F;
+}
+.page-link:hover{
+  color:  #FD8F5F;
+  border:1px solid #FD8F5F;
+}
+/* Add to cart button */
+.product-card .btn {
+  background-color: #FD8F5F;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.product-card .btn:hover {
+  background-color: #e65a1e;
+}
